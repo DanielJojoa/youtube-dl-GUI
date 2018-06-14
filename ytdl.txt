@@ -1,0 +1,27 @@
+[youtube] 0kwKXhGmFxM: Downloading webpage
+[youtube] 0kwKXhGmFxM: Downloading video info webpage
+[youtube] 0kwKXhGmFxM: Extracting video information
+[info] Available formats for 0kwKXhGmFxM:
+format code  extension  resolution note
+249          webm       audio only DASH audio   65k , opus @ 50k, 1.39MiB
+250          webm       audio only DASH audio   85k , opus @ 70k, 1.82MiB
+140          m4a        audio only DASH audio  128k , m4a_dash container, mp4a.40.2@128k, 3.01MiB
+171          webm       audio only DASH audio  142k , vorbis@128k, 3.13MiB
+251          webm       audio only DASH audio  165k , opus @160k, 3.55MiB
+160          mp4        256x144    144p   27k , avc1.4d400c, 30fps, video only, 432.71KiB
+133          mp4        426x240    240p   61k , avc1.4d4015, 30fps, video only, 752.49KiB
+278          webm       256x144    144p   68k , webm container, vp9, 30fps, video only, 1018.10KiB
+242          webm       426x240    240p   86k , vp9, 30fps, video only, 1.23MiB
+134          mp4        640x360    360p  129k , avc1.4d401e, 30fps, video only, 1.78MiB
+243          webm       640x360    360p  171k , vp9, 30fps, video only, 2.48MiB
+135          mp4        854x480    480p  215k , avc1.4d401f, 30fps, video only, 2.97MiB
+244          webm       854x480    480p  347k , vp9, 30fps, video only, 4.49MiB
+136          mp4        1280x720   720p  445k , avc1.4d401f, 30fps, video only, 6.03MiB
+247          webm       1280x720   720p  551k , vp9, 30fps, video only, 8.81MiB
+137          mp4        1920x1080  1080p  704k , avc1.640028, 30fps, video only, 11.50MiB
+248          webm       1920x1080  1080p 1479k , vp9, 30fps, video only, 19.53MiB
+17           3gp        176x144    small , mp4v.20.3, mp4a.40.2@ 24k
+36           3gp        320x180    small , mp4v.20.3, mp4a.40.2
+43           webm       640x360    medium , vp8.0, vorbis@128k
+18           mp4        640x360    medium , avc1.42001E, mp4a.40.2@ 96k
+22           mp4        1280x720   hd720 , avc1.64001F, mp4a.40.2@192k (best)

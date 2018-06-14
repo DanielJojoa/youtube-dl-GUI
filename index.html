@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube-dll-GUI</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/uikit-rlt.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+</head>
+<body>
+
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <h3 class="uk-label uk-label-danger">Youtube-dl-GUI</h3>
+
+        <div>
+            <input type="text" class="uk-input" id="link" placeholder="Ingresar link del video">
+            <select id="options" class="uk-button uk-button-default" onchange="changeOption()">
+                <option value="0">Seleccione una opción </option>
+                <option value="1">Video</option>
+                <option value="2">Mp3</option>
+                <option value="3">Lista de reproducción</option>
+                <option value="4">Lista txt</option>
+                <option value="5">Reproducir en VLC</option>
+            </select>
+        </div>
+        <div>
+            <button class="uk-button uk-button-danger" onclick="download()">Descargar</button>
+            <button class="uk-button uk-button-primary" onclick="downloadDirectory()">Abrir directorio</button>
+            
+        </div> 
+        <div>
+            
+        </div> 
+        <div id="interval" hidden ='true'>
+            <input type="number" class="uk-input" placeholder="inicio" min="1">
+            <input type="number" class="uk-input" placeholder="final" min="2">
+        </div>
+        <div id="txt" hidden = 'true'>
+            <input class="uk-input" id="file" type="file" accept=".txt" size="20">
+        </div>
+        <div id="result">
+            <img id='img' src='images/pr.gif' />
+        </div>
+    </div>       
+     
+        
+    <script src="js/functionality.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+</html>
